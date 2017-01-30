@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="./jquery-1.12.2.js"></script>
+        <script src="https://code.highcharts.com/stock/highstock.js"></script>
+        <script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+        <script type="text/javascript" src="https://www.highcharts.com/samples/data/usdeur.js"></script>
+        <script src="HisChart.js"></script>
+        <script>
+            //var phpURL = "http://571study-env.us-west-2.elasticbeanstalk.com";
+            var phpURL = "http://my-project571.appspot.com/"
+            $(function() {
+                var container = '#chart';
+                var mar = new Markit.InteractiveChartApi(container, Android.getSymbol(), Android.getName());
+            });
+        </script>
+    </head>
+    <body>
+        <div id="chart" style="width: 918px;">
+        </div>
+    </body>
+</html>

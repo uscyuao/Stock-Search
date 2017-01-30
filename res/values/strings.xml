@@ -1,0 +1,31 @@
+<resources>
+    <string name="facebook_app_id">209971629375998</string>
+
+    <string name="app_name">571StockSearch</string>
+    <string name="bar_title">Stock Market Viewer</string>
+    <string name="search_title">Stock Name/Symbol</string>
+    <string name="clear_button">CLEAR</string>
+    <string name="get_quote_button">GET QUOTE</string>
+    <string name="not_yet">not yet</string>
+    <string name="error_ok">OK</string>
+    <string name="error_no">Please enter a Stock Name/Symbol</string>
+    <string name="error_invalid">Invalid Symbol</string>
+    <string name="errormsg_key">ERROR_MESSAGE</string>
+    <string name="delete_ok">OK</string>
+    <string name="delete_cancel">CANCEL</string>
+
+    <string name="caption_details">Stock Details</string>
+    <string name="caption_pic">Today\'s Stock Activity</string>
+    <string name="caption_feed">News Feed</string>
+    <string name="detail_title1">NAME</string>
+    <string name="detail_title2">SYMBOL</string>
+    <string name="detail_title3">LASTPRICE</string>
+    <string name="detail_title4">CHANGE</string>
+    <string name="detail_title5">TIMESTAMP</string>
+    <string name="detail_title6">MARKETCAP</string>
+    <string name="detail_title7">VOLUME</string>
+    <string name="detail_title8">CHANGEYTD</string>
+    <string name="detail_title9">HIGH</string>
+    <string name="detail_title10">LOW</string>
+    <string name="detail_title11">OPEN</string>
+</resources>
